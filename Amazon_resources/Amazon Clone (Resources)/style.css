@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+.navbar{
+    background-color:#131921;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+    border: 2px solid transparent;
+    border-radius: 5%;
+}
+.logo{
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    cursor: pointer;
+}
+.nav-logo:hover{
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.nav-address{
+    width: 90px;
+    height: 50px;
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.nav-address:hover{
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.icon{
+    display: flex;
+    align-self: center;
+    margin-left: 12px;
+}
+.add{
+    display: block;
+    align-items: center;
+}
+.a1{
+    color: #CCCCCC;
+    font-size: 0.75rem;
+    align-self: center;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+.a2{
+    font-size: 1rem;
+    align-self: center;
+    margin-left: 3px;
+    color: white;
+}
+.nav-search{
+    display: flex;
+    height: 50px;
+    width: 600px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    border: 3px solid transparent;
+}
+
+.nav-search:focus-within{
+    border-color: #febd68;
+}
+.select{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.input:focus{
+    outline: none;
+}
+.search{
+    width: 45px;
+    background-color: #febd68;
+    font-size: 1.5rem;
+    color: #2b3030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.lang{
+    height: 40px;
+    width: 70px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #0f1111;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.lang:hover{
+    border: 2px solid white;
+}
+
+.sign_in{
+    width: 140px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+span{
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+}
+
+.returns{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.sign_in:hover{
+    border: 2px solid white;   
+}
+
+.returns:hover{
+    border: 2px solid white;
+}
+
+.cart{
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.cart i{
+    align-self: center;
+}
+
+.cart p{
+    align-self: center;
+}
+
+.cart:hover{
+    border: 2px solid white;
+}
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-all{
+    display: flex;
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    justify-content: center;
+}
+.panel-all p{
+    margin-left: 2px;
+}
+
+.panel-all:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.panel-ops p{
+    display: inline;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.panel-ops p:hover{
+    border: 2px solid white;
+}
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 700px;
+    background-size: cover;
+}
